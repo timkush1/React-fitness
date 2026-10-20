@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Card from "../UI/Card"; // Ensure this path is correct
 import Button from "../UI/Button"; // Ensure this path is correct
 import processDataForChart from "@/util/processData";
-import LineChart from "../UI/LineChart ";
+import LineChart from "../UI/LineChart";
 
 const Dashboard = () => {
   const [expenses, setExpenses] = useState([]);
